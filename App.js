@@ -6,6 +6,10 @@ import { StyleSheet, Text, View } from "react-native";
 //To bring up Dev menu on Simulator: CRTL + D, CMD + D
 //(copy to clipboard to erase annoying message)
 export default function App() {
+  let x = 1;
+
+  console.log("App executed");
+
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
@@ -19,6 +23,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center"
-  }
+    justifyContent: "center",
+  },
 });
